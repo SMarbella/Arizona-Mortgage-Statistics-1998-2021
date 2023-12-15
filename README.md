@@ -1,50 +1,45 @@
-# Arizona Mortgage Statistics 1998-2021
+# National Mortgage Statistics 1998-2021
 “The National Mortgage Database (NMDB®) is a nationally representative five percent sample of residential mortgages in the United States” (National Mortgage Database, 1). The dataset includes residential mortgages in multiple categories from 1998 to 2021. It also includes an annual census of employment numbers and wages. The Federal Housing Finance Agency “conducts a monthly mortgage market survey to collect data on the characteristics of individual mortgages, both Enterprise and non-Enterprise, and to make the data available to the public while protecting the privacy of the borrowers” (1).
 
 ## Dataset Information
 
-Title: Bureau of Labor Statistics (BLS) Wages - Arizona
+Title: National Mortgage Database (NMDB®) - New Mortgage Statistics
 
 Date of Study: 2021
 
-**Original owners:** Federal Housing Finance Agency (FHFA) and U.S. Bureau of Labor Statistics (BLS)
+**Original owner:** Federal Housing Finance Agency (FHFA)
 
 **Source:** https://www.fhfa.gov/DataTools/Downloads/Pages/National-Mortgage-Database-Aggregate-Data.aspx
-https://www.bls.gov/cew/downloadable-data-files.htm
 
-**Relevant Information:** https://www.bls.gov/cew/about-data/downloadable-file-layouts/annual/naics-based-annual-layout.htm
+**Relevant Information:** https://www.fhfa.gov/DataTools/Downloads/Pages/National-Mortgage-Database-Aggregate-Data.aspx
 
 **PDF:** https://www.fhfa.gov/DataTools/Downloads/Documents/NATIONAL-MORTGAGE-DATABASE-(NMDB)-AGGREGATE-DATA/NMDB-New-Mortgage-Statistics-Data-Dictionary-Technical-Notes.pdf
 
 ## Table Columns
-The table used is a simplified version of the BLS Wages in Arizona, with some columns removed or modified.
+The SERIESID column acts as a category that includes 55 items. Some of these items include descriptions on average ages of borrowers, race percentages, borrower type percentages, percent share by number of borrowers and gender, home purchase originations, mortgage terms, credit scores, and many more categories.
 
-own_code - 1-character ownership code.
+SOURCE - Data Source.
 
-industry_code - 6-character industry code (NAICS, SuperSector).
+FREQUENCY - Frequency of the Series.
 
-agglvl_code - 2-character aggregation level code.
+SERIESID - Statistic Field.
 
-year - 4-character year.
+GEOLEVEL - Level of Geography.
 
-area_fips - 5-character FIPS code.
+GEOID - Geography Identifier.
 
-annual_avg_wkly_wage - Average weekly wage based on the 12-monthly employment levels and total annual wage levels.
+GEONAME - Name of Geography.
 
-annual_avg_emplvl - Annual average of monthly employment levels for a given year.
+MARKET - Market level.
 
-avg_annual_pay - Average annual pay based on employment and wage levels for a given year.
+YEAR - Time Period.
 
-agglvl_title - Multi-character aggregation title associated with the agglvl code (Excluded from singlefile).
+SUPPRESSED - Data are suppressed.
 
-industry_title - Multi-character industry title associated with the industry code (Excluded from singlefile).
-
-own_title - Multi-character ownership title associated with the ownership code (Excluded from singlefile).
-
-area_title - Since this is only in Arizona, all area_title values are "Arizona Statewide".
+VALUE - A numeric value representing relevant data.
 
 ## Retrieved table from
-- https://www.bls.gov/cew/downloadable-data-files.htm
+- https://www.fhfa.gov/DataTools/Downloads/Pages/National-Mortgage-Database-Aggregate-Data.aspx
 
 # Charts Generated For This Project
 
