@@ -1,5 +1,5 @@
 # National Mortgage Statistics 1998-2021
-I used the R programming language to analyze the data and create graphs that answered the prompting questions.
+I used the R programming language to analyze the data from the National Mortgage Database and created graphs that answered the prompting questions.
 
 “The National Mortgage Database (NMDB®) is a nationally representative five percent sample of residential mortgages in the United States” (National Mortgage Database, 1). The dataset includes residential mortgages in multiple categories from 1998 to 2021. It also includes an annual census of employment numbers and wages. The Federal Housing Finance Agency “conducts a monthly mortgage market survey to collect data on the characteristics of individual mortgages, both Enterprise and non-Enterprise, and to make the data available to the public while protecting the privacy of the borrowers” (1).
 
